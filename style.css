@@ -152,7 +152,7 @@ body {
     margin-left: 150px;
 }
 
-#beard-man-image {
+#man-image {
     width: 55%;
     position: absolute;
     margin-top: -40%;
@@ -337,7 +337,10 @@ body {
     margin-left: 75%;
 }
 
-#man-image {}
+#man-image {
+    width:60%;
+    margin-left: 40%;
+}
 
 .learn{
     margin-top: -20px;
@@ -587,124 +590,3 @@ footer ul{
     margin-top: 8%;
 }
 
-@media (max-width: 1024px) {
-    .navigation-bars {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 0;
-    }
-    .navbar {
-        margin-left: 0;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-    .register {
-        margin-left: 0;
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-    }
-    .register button {
-        width: 150px;
-        margin-top: 10px;
-    }
-    .improvement {
-        flex-direction: column;
-        align-items: center;
-    }
-    .improvement-way {
-        margin-left: 5%;
-        text-align: center;
-    }
-    .about-dit {
-        margin-left: 5%;
-        width: 80%;
-        transform: rotate(0deg);
-    }
-    #man-image {
-        margin-top: -20%;
-        margin-left: 25%;
-        width: 50%;
-    }
-    .fast-upload {
-        margin-left: 10%;
-        width: 50%;
-    }
-    .logos {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 40px;
-        margin-left: 0;
-    }
-    .products {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 5%;
-    }
-    .easy-interface, .secured-transfers, .support-247 {
-        width: 80%;
-        margin-bottom: 20px;
-    }
-    .right-left {
-        flex-direction: column;
-        align-items: center;
-    }
-    .side-image-all {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .guidance- {
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .app-settings {
-        flex-direction: column;
-        margin-left: 5%;
-    }
-    .app-settings{
-        flex-direction: column;
-        align-items: center;
-    }
-    .settings {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    .boost-app {
-        transform: rotate(0deg);
-        margin-top: 20px;
-    }
-    .edwin {
-        flex-direction: column;
-        align-items: center;
-    }
-    .biograph .jecson-bio {
-        margin-left: 5%;
-        width: 90%;
-    }
-    .download-apps {
-        flex-direction: column;
-        align-items: center;
-        margin-left: 5%;
-    }
-    .app-play {
-        margin-left: 0;
-        margin-top: 20px;
-    }
-    #platforms {
-        margin-left: 0;
-    }
-    footer {
-        padding: 5%;
-    }
-    .footer-upper {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-    .privacy-policy {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
