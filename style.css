@@ -2,16 +2,19 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: nunito;
-    src: url('Nunito-VariableFont_wght\ \(1\).ttf');
-}
-
 body {
-    background-color: rgb(221, 231, 235);
-    font-family: nunito;
     font-size: 140%;
+    font-family: nunito;
+   
 
+}
+.contents{
+    background-color: rgb(213, 223, 219);
+}
+.navbar {
+    margin-left: 20%;
+    gap: 40px;
+    display: flex;
 }
 
 
@@ -28,11 +31,6 @@ body {
     margin-left: 10px;
 }
 
-.navbar {
-    margin-left: 20%;
-    gap: 40px;
-    display: flex;
-}
 
 .navbar a {
     color: black;
@@ -43,20 +41,20 @@ body {
     height: 30px;
 }
 
-.register{
-    margin-left: 10%;
+.login{
+    margin-left: 8%;
     gap: 40px;
 }
 
-.register {
-    gap: 20%;
-    text-decoration: none;
-    color: black;
-    display: flex;
+.login {
     width: 150px;
+    text-decoration: none;
+    gap: 15%;
+    display: flex;
+    color: black;
 }
 
-.register button {
+.login button {
     width: 200%;
     height: 75%;
     border-radius: 10px;
@@ -65,23 +63,20 @@ body {
 
 }
 
-.register a {
+.login a {
     color: black;
     text-decoration: none;
 }
 
-
-
-
 .decor {
+    border-radius: 5rem;
     height: 300px;
     width: 250px;
-    border-radius: 5rem;
+    position: absolute;
     top: 30%;
     margin-left: -10%;
     left: 0;
     z-index: -1;
-    position: absolute;
     rotate: 19deg;
     background-color: #E9A9C9;
 }
@@ -182,7 +177,7 @@ body {
     width: 20%;
     padding-left: 20px;
     border-radius: 15px;
-    margin-top: 2%;
+    margin-top: 1%;
 
 }
 
@@ -339,7 +334,7 @@ body {
 
 #man-image {
     width:60%;
-    margin-left: 40%;
+    margin-left: 33%;
 }
 
 .learn{
