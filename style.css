@@ -539,7 +539,8 @@ body {
 }
 footer{
     background-color: #283150;
-    width: 130%;
+    margin:0 auto;
+    width: 80%;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -578,10 +579,10 @@ footer li:first-child {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 80%;
+    width: 99%;
     background-color: rgb(10, 10, 24);
     padding: 3%;
-    margin: 0 -5% -2% -2%;
+    margin: 0 -5% -2% -2.5%;
     font-size: large;
 }
 
