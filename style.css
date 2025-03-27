@@ -4,10 +4,8 @@ body {
     font-size: 140%;
     font-family: nunito;
    overflow-x: hidden;
+   background-color: rgb(213, 223, 219);
 
-}
-.contents{
-    background-color: rgb(213, 223, 219);
 }
 .navbar {
     margin-left: 20%;
@@ -44,7 +42,9 @@ body {
     width: 30px;
     height: 30px;
 }
-
+.contents{
+    background-color: white;
+}
 .login{
     margin-left: 8%;
     gap: 40px;
