@@ -1,72 +1,84 @@
 body {
-    font-size: 140%;
+    font-size: 130%;
     font-family: nunito;
-   overflow-x: hidden;
+    overflow-x: hidden;
+    width: 100%;
 }
-.content{
+
+.content {
     background-color: rgb(233, 236, 235);
 }
+
 .navbar {
     margin-left: 20%;
-    gap: 40px;
+    gap: 20%;
     display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    font-size: 20px;
 }
-#dit{
+
+#dit {
     margin-top: 1%;
 }
-.navigation-bars{
+
+.navigation-bars {
     display: flex;
     margin-left: 10%;
- 
-   
+
 }
-#dit.io{
- 
+
+#dit.io {
+
     font-size: 30px;
     margin-left: 10px;
 }
+
 .navbar a {
     color: black;
     text-decoration: none;
+    justify-content: space-between;
 }
 
-#dit{
+#dit {
     width: 30px;
     height: 30px;
 }
-.contents{
+
+.contents {
     background-color: white;
 }
-.signing{
+
+.signing {
     margin-left: 8%;
-    width: 150px;
+    width: 70%;
     text-decoration: none;
     gap: 0%;
     display: flex;
     color: black;
+    margin-top: 2%;
 }
 
-#signup-btn{
-    width: 300%;
-    height: 60%;
+#signup-btn {
+    width: 60%;
+    height: 60px;
     border-radius: 10px;
+    align-items: center;
     background-color: rgb(238, 92, 117);
-   
-    margin-left: 20%;
     border-color: rgb(248, 105, 129);
 
 }
 
-#login-btn{
+#login-btn {
     color: black;
     text-decoration: none;
-    background-color:  rgb(233, 236, 235);
+    background-color: rgb(233, 236, 235);
     border: none;
-    width: 300%;
-    height: 70%;
-    
- 
-  
+    width: 100%;
+    height: 50%;
+
+
+
 }
 
 .decor {
@@ -81,7 +93,8 @@ body {
     z-index: -1;
     background-color: #ebc2d7;
 }
-.fa-regular{
+
+.fa-regular {
     margin-left: 40%;
     margin-top: 10%;
 }
@@ -92,10 +105,11 @@ body {
     height: 60px;
     background-color: rgb(1, 1, 59);
     color: white;
-   
+
 }
-.app-stores img{
-    width:35%;
+
+.app-stores img {
+    width: 35%;
     height: 70%;
 }
 
@@ -105,11 +119,13 @@ body {
     height: 60px;
     margin-left: 30px;
 }
-.lucide{
+
+.lucide {
     margin-left: 40%;
     margin-top: 5%;
 }
-.improvement{
+
+.improvement {
     display: flex;
 }
 
@@ -150,7 +166,8 @@ body {
     border-radius: 10px;
 
 }
-.performances{
+
+.performances {
     background-color: rgb(233, 236, 235);
     padding-bottom: 10%;
     margin-left: 8%;
@@ -213,33 +230,38 @@ body {
     margin-top: 10%;
 
 }
-#microsoft-logo{
+
+#microsoft-logo {
     width: 200px;
     height: 150px;
 }
-#trello-logo{
+
+#trello-logo {
     width: 200px;
     height: 150px;
 }
-#google-logo{
+
+#google-logo {
     width: 200px;
     height: 150px;
 }
-#dropbox-logo{
+
+#dropbox-logo {
     width: 200px;
     height: 100px;
 }
-#slack-logo{
+
+#slack-logo {
     width: 200px;
     height: 150px;
 }
-    
 
-#work-services{
+
+#work-services {
     font-size: 35px;
     text-align: center;
     margin-top: 20%;
-  
+
 
 }
 
@@ -252,8 +274,8 @@ body {
     margin-top: 70px;
     display: flex;
     gap: 10%;
-   
-  
+
+
 }
 
 .interface {
@@ -271,7 +293,8 @@ body {
     width: 20%;
     padding-left: 15px;
 }
-.secured-transfers img{
+
+.secured-transfers img {
     margin-left: 40%;
     margin-top: 9%;
 }
@@ -311,7 +334,7 @@ body {
     font-size: 37px;
 }
 
-#users-num{
+#users-num {
 
     font-size: 37px;
 }
@@ -358,11 +381,11 @@ body {
 }
 
 #man-image {
-    width:60%;
+    width: 60%;
     margin-left: 33%;
 }
 
-.learn{
+.learn {
     margin-top: -20px;
 }
 
@@ -422,7 +445,7 @@ body {
     font-size: 24px;
 }
 
-.boost{
+.boost {
     transform: rotate(6deg);
     text-align: center;
 }
@@ -434,11 +457,12 @@ body {
 }
 
 .boost button:nth-child(5) {
-    background-color: rgb(224, 135, 150);;
+    background-color: rgb(224, 135, 150);
+    ;
     width: 100%;
     height: 13%;
     border-radius: 10px;
-    
+
 }
 
 #angela-name {
@@ -474,9 +498,10 @@ body {
     padding-left: 20px;
 }
 
-#edwin-zohir{
+#edwin-zohir {
     font-size: 20px;
 }
+
 .edwin-img {
     display: flex;
     gap: 230px;
@@ -498,19 +523,22 @@ body {
     display: flex;
     margin-left: 15%;
 }
+
 #edwin-bio {
     width: 20%;
     height: 20%;
     border-radius: 60px;
 }
+
 #lubsha {
     width: 70%;
 }
 
-.app-users{
+.app-users {
     margin-top: 30px;
 }
-#downloading{
+
+#downloading {
     font-size: 35px;
 }
 
@@ -520,66 +548,74 @@ body {
     display: flex;
     gap: 20px;
 }
-#platforms{
+
+#platforms {
     margin-top: 20%;
     margin-left: -270px;
 }
-.app-play button:nth-child(1){
+
+.app-play button:nth-child(1) {
     height: 44px;
     width: 119px;
     border-radius: 10px;
     background-color: rgb(5, 5, 56);
     color: white;
 }
-.app-play button:nth-child(2){
+
+.app-play button:nth-child(2) {
     border-radius: 10px;
     height: 44px;
     width: 119px;
-   
+
 }
-footer{
+
+footer {
     background-color: #283150;
-    margin:0 auto;
-    width: 80%;
+    margin: 0 auto;
+    width: 130%;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 2%;
     flex-wrap: wrap;
     flex-direction: column;
+
     li:not(:first-child) {
         color: gray;
     }
 }
 
-footer div{
+footer div {
     flex: 1;
-   
+
 }
 
-.footer-products{
+.footer-products {
     display: flex;
-    
+
     img {
         margin-top: 4%;
     }
 }
-#dit-logo{
+
+#dit-logo {
     height: 28px;
     margin-top: 1%;
     margin-left: 40px;
 }
+
 footer li:first-child {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 4%;
 }
-.privacy-policy{
+
+.privacy-policy {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 99%;
+    width: 100%;
     background-color: rgb(10, 10, 24);
     padding: 3%;
     margin: 0 -5% -2% -2.5%;
@@ -596,15 +632,16 @@ footer.privacy-policy p:nth-last-child(1) {
 }
 
 
-footer ul{
+footer ul {
     list-style-type: none;
     line-height: 40px;
 }
 
-.fa-brands{
+.fa-brands {
     padding-right: 3%;
-    margin-top: 4%;
+    margin-top: 5%;
 }
+
 @media (max-width: 1440px) {
     body {
         font-size: 120%;
@@ -616,27 +653,31 @@ footer ul{
 
     .navbar {
         margin-left: 10%;
-        gap: 24px; 
+        gap: 24px;
     }
 
     #click {
-        font-size: 32px; 
+        font-size: 32px;
     }
+
     .logos img {
-        width: 128px; 
+        width: 128px;
     }
+
     .about-dit {
         width: 35%;
     }
+
     .fast-upload {
         margin-left: 50%;
         width: 25%;
     }
 
     .products {
-        gap: 24px; 
+        gap: 24px;
     }
 }
+
 @media (max-width: 1024px) {
     body {
         font-size: 100%;
@@ -650,6 +691,7 @@ footer ul{
     .login {
         margin-left: 2%;
     }
+
     .improvement {
         flex-direction: column;
         margin: 5% 5%;
@@ -665,6 +707,7 @@ footer ul{
         width: 100%;
         transform: none;
     }
+
     #man-image {
         position: static;
         width: 100%;
@@ -676,10 +719,13 @@ footer ul{
         align-items: center;
     }
 
-    .interface, .secured-transfers, .support {
+    .interface,
+    .secured-transfers,
+    .support {
         width: 80%;
     }
 }
+
 @media (max-width: 768px) {
     body {
         font-size: 90%;
@@ -693,7 +739,7 @@ footer ul{
     .navbar {
         margin-left: 0;
         flex-direction: column;
-        gap: 8px; 
+        gap: 8px;
     }
 
     .login {
@@ -702,11 +748,11 @@ footer ul{
     }
 
     #click {
-        font-size: 24px; 
+        font-size: 24px;
     }
 
     .app-stores button {
         width: 100%;
-        margin: 8px 0; 
+        margin: 8px 0;
     }
 }
