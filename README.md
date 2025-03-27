@@ -1,2 +1,2 @@
 # Landing-Application-Page
-I added index.html and style.css. 
+I added index.html and style.css to my repository.
